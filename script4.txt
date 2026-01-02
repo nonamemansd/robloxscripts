@@ -1,0 +1,170 @@
+--[[ 
+    PRO KEY SYSTEM LOADER 
+    Настройка: Вставь свои ссылки ниже.
+]]
+
+local CONFIG = {
+    Title = "Photios HUB KEYSYSTEM",
+    KeyURL = "https://raw.githubusercontent.com/nonamemansd/robloxscripts/refs/heads/main/main.txt", -- Ссылка на Raw (Pastebin/GitHub) с ключом
+    ScriptURL = "https://api.luarmor.net/files/v3/loaders/2075c39b9a5a2e4414c59c93fe8a5f06.lua", -- Твой основной скрипт (сейчас стоит тот, что был у тебя в коде)
+    Linkvertise = "https://work.ink/1ZVP/key" -- Твоя ссылка для заработка
+}
+
+-- [ СЕРВИСЫ ]
+local CoreGui = game:GetService("CoreGui")
+local TweenService = game:GetService("TweenService")
+
+-- [ ЗАЩИТА ОТ ПОВТОРНОГО ЗАПУСКА ]
+if CoreGui:FindFirstChild("KeySystemUI") then
+    CoreGui.KeySystemUI:Destroy()
+end
+
+-- [ СОЗДАНИЕ GUI ]
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "KeySystemUI"
+ScreenGui.Parent = CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+local MainFrame = Instance.new("Frame")
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+MainFrame.Position = UDim2.new(0.5, -125, 0.5, -75)
+MainFrame.Size = UDim2.new(0, 250, 0, 160)
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+-- Закругление углов (Эстетика)
+local UICorner = Instance.new("UICorner")
+UICorner.CornerRadius = UDim.new(0, 6)
+UICorner.Parent = MainFrame
+
+-- Заголовок
+local Title = Instance.new("TextLabel")
+Title.Name = "Title"
+Title.Parent = MainFrame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0, 0, 0, 0)
+Title.Size = UDim2.new(1, 0, 0, 30)
+Title.Font = Enum.Font.GothamBold
+Title.Text = CONFIG.Title
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 14.000
+
+local Line = Instance.new("Frame")
+Line.Name = "Line"
+Line.Parent = Title
+Line.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Line.BorderSizePixel = 0
+Line.Position = UDim2.new(0, 0, 1, 0)
+Line.Size = UDim2.new(1, 0, 0, 1)
+
+-- Поле ввода
+local KeyInput = Instance.new("TextBox")
+KeyInput.Name = "KeyInput"
+KeyInput.Parent = MainFrame
+KeyInput.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+KeyInput.BorderSizePixel = 0
+KeyInput.Position = UDim2.new(0.1, 0, 0.3, 0)
+KeyInput.Size = UDim2.new(0.8, 0, 0, 35)
+KeyInput.Font = Enum.Font.Gotham
+KeyInput.PlaceholderText = "Введите ключ..."
+KeyInput.Text = ""
+KeyInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeyInput.TextSize = 14.000
+
+local InputCorner = Instance.new("UICorner")
+InputCorner.CornerRadius = UDim.new(0, 4)
+InputCorner.Parent = KeyInput
+
+-- Кнопка "Получить ключ"
+local GetKeyBtn = Instance.new("TextButton")
+GetKeyBtn.Name = "GetKeyBtn"
+GetKeyBtn.Parent = MainFrame
+GetKeyBtn.BackgroundColor3 = Color3.fromRGB(0, 120, 215)
+GetKeyBtn.Position = UDim2.new(0.52, 0, 0.65, 0)
+GetKeyBtn.Size = UDim2.new(0.38, 0, 0, 35)
+GetKeyBtn.Font = Enum.Font.GothamBold
+GetKeyBtn.Text = "Get Key"
+GetKeyBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+GetKeyBtn.TextSize = 12.000
+
+local BtnCorner1 = Instance.new("UICorner")
+BtnCorner1.CornerRadius = UDim.new(0, 4)
+BtnCorner1.Parent = GetKeyBtn
+
+-- Кнопка "Проверить"
+local CheckBtn = Instance.new("TextButton")
+CheckBtn.Name = "CheckBtn"
+CheckBtn.Parent = MainFrame
+CheckBtn.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+CheckBtn.Position = UDim2.new(0.1, 0, 0.65, 0)
+CheckBtn.Size = UDim2.new(0.38, 0, 0, 35)
+CheckBtn.Font = Enum.Font.GothamBold
+CheckBtn.Text = "Check"
+CheckBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+CheckBtn.TextSize = 12.000
+
+local BtnCorner2 = Instance.new("UICorner")
+BtnCorner2.CornerRadius = UDim.new(0, 4)
+BtnCorner2.Parent = CheckBtn
+
+-- [ ЛОГИКА ]
+
+-- 1. Копирование ссылки
+GetKeyBtn.MouseButton1Click:Connect(function()
+    if setclipboard then
+        setclipboard(CONFIG.Linkvertise)
+        GetKeyBtn.Text = "Copied!"
+        task.wait(2)
+        GetKeyBtn.Text = "Get Key"
+    else
+        GetKeyBtn.Text = "Error" -- Если эксплойт не поддерживает буфер обмена
+    end
+end)
+
+-- 2. Проверка ключа и загрузка
+CheckBtn.MouseButton1Click:Connect(function()
+    local enteredKey = KeyInput.Text
+    CheckBtn.Text = "Checking..."
+    
+    -- Получаем ключ с сервера (защищенный вызов)
+    local success, actualKey = pcall(function()
+        return game:HttpGet(CONFIG.KeyURL)
+    end)
+
+    if success then
+        -- Чистим ключ от пробелов и переносов строк
+        actualKey = actualKey:gsub("%s+", "")
+        
+        if enteredKey == actualKey then
+            CheckBtn.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+            CheckBtn.Text = "Correct!"
+            task.wait(1)
+            
+            -- Удаляем GUI
+            ScreenGui:Destroy()
+            
+            -- ЗАГРУЗКА ОСНОВНОГО СКРИПТА
+            local scriptSuccess, err = pcall(function()
+                loadstring(game:HttpGet(CONFIG.ScriptURL))()
+            end)
+            
+            if not scriptSuccess then
+                warn("Ошибка загрузки основного скрипта: " .. tostring(err))
+            end
+        else
+            CheckBtn.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+            CheckBtn.Text = "Wrong Key"
+            task.wait(1.5)
+            CheckBtn.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+            CheckBtn.Text = "Check"
+        end
+    else
+        CheckBtn.Text = "HTTP Error"
+        warn("Не удалось получить ключ: " .. tostring(actualKey))
+        task.wait(2)
+        CheckBtn.Text = "Check"
+    end
+end)
