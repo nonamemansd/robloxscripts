@@ -1,0 +1,46 @@
+local OOOO0000O=(loadstring or load)
+local OOO00000O=31
+local O00O0O0OO=[[
+FTIyREQ/XlFYWlNQTT9XSl0/U1BeW1pNP0JCFXNwfH5zP1xwbXpYanY/Ij94fnJ6JVh6a0x6bWl2fHo3PVxwbXpYanY9NhVzcHx+cz9LaHp6cUx6bWl2fHo/Ij94fnJ6JVh6a0x6bWl2fHo3PUtoenpxTHptaXZ8ej02FRVzcHx+cz9ATVpeU0BUWkY/Ij9sa212cXgxfHd+bTcqKjM/KyYzPyovMz8qLTM/Kio2FXNwfH5zP0BTVlFUPyI/bGttdnF4MXx3fm03Li8rMz8uLikz
+Py4uKTM/Li4tMz8uLiozPyonMz8rKDM/KygzPy4vJzM/Li8qMz8uLi8zPy4vKDM/KyozPy4uKTM/JigzPy4uKzM/Li8sMz8uLy4zPy4uKTM/KykzPy4uLzM/Li8uMz8uLikzPysoMz8qLzM/KiszPyovMz8qKTM/KiszPyosMz8rJzM/KygzPykpMz8uLyozPy4uLDM/KC8zPygoMz8qLzM/KyYzPy4uJjM/Li8qMz8oLzM/Li4mMz8pJjYVc3B8fnM/QE9eRlNQXls/Ij9sa212
+cXgxfHd+bTcuLyszPy4uKTM/Li4pMz8uLi0zPy4uKjM/KiczPysoMz8rKDM/Li4rMz8mKDM/Li4mMz8rKTM/Li8sMz8uLyozPy4uKTM/Li8rMz8uLigzPyYnMz8uLigzPy4uKjM/Li8uMz8uLiszPyYmMz8uLi4zPy4uLzM/Li4pMz8uLy4zPy4uLzM/Li4pMz8rKTM/JiYzPy4uLjM/Li8mMz8rKDM/Li4vMz8uLi4zPy4uLzM/JigzPy4vJjM/Li8uMz8uLyYzPyYoMz8uLi8z
+Py4uKjM/Li8vMz8rKDM/Li4rMz8uLi4zPyYnMz8uLyczPy4uLjM/Li0vMz8uLiozPyYmMz8uLiszPy4vKjM/Li4tMz8uLikzPy4uKjM/KygzPy4vJjM/JigzPy4vKjM/Li4vMz8rKDM/JyozPycvMz8pJzM/JiozPyguMz8uLiszPyYoMz8uLi8zPy4vLzM/JiozPycvMz8uLyozPy4vLjM/JiYzPy4vLjM/JiozPygmMz8uLi8zPy4vJzM/Li8qMz8uLi8zPy4vLjM/JiozPysq
+Mz8mKjM/JyszPy4uKzM/Li4uMz8uLyczPy4vJzM/JiozPycvMz8mKDM/Li0uMz8uLyczPy4uLjM/JigzPy4vLzM/JiozPyovMz8qKTM/KiszPyYoMz8qKDM/Li8vMz8qLjM/JigzPyspMz8uLyczPy4uKDM/Jig2FXNwfH5zP0BYWktAS0dLPyI/PVxQT0Y/VFpGPRVzcHx+cz9AXFdaXFRAS0dLPyI/PUlaTVZZRj9UWkY9FXNwfH5zP0BQVEBLR0s/Ij89SVpNVllWWls+PRVz
+cHx+cz9AXV5bQEtHSz8iPz1WUUleU1ZbP1RaRj0VFXZ5P1xwbXpYanYlWXZxe1l2bWxrXHd2c3s3PS4uVnZzVj02P2t3enE/XHBtelhqdkQ9Li5WdnNWPUIlW3psa21wZjc2P3pxexUVc3B8fnM/THxtenpxWGp2PyI/VnFsa35xfHoxcXpoNz1MfG16enFYanY9NhVMfG16enFYanYxUX5yej8iPz0uLlZ2c1Y9FUx8bXp6cVhqdjFPfm16cWs/Ij9ccG16WGp2FRVzcHx+cz9S
+fnZxPyI/VnFsa35xfHoxcXpoNz1ZbX5yej02FVJ+dnExUX5yej8iPz1SfnZxWW1+cno9FVJ+dnExT35tenFrPyI/THxtenpxWGp2FVJ+dnExXX58dHhtcGpxe1xwc3BtLD8iP1xwc3BtLDF5bXByTVhdNy0vMz8tLzM/LSo2FVJ+dnExT3Bsdmt2cHE/Ij9KW3ZyLTFxemg3LzEqMz8yLikpMz8vMSozPzImKjYVUn52cTFMdmV6PyI/Slt2ci0xcXpoNy8zPy8zPy8zPy82FVJ+
+dnExXHN2b2xbemx8enF7fnFrbD8iP2ttanoVUn52cTFecXx3cG1PcHZxaz8iP0l6fGtwbS0xcXpoNy8xKjM/LzEqNhUVc3B8fnM/Slw/Ij9WcWxrfnF8ejFxemg3PUpWXHBtcXptPTM/Un52cTYVSlwxXHBtcXptTX57dmpsPyI/Slt2cjFxemg3LzM/JzYVFXNwfH5zP0xrbXB0ej8iP1ZxbGt+cXx6MXF6aDc9SlZMa21wdHo9Mz9SfnZxNhVMa21wdHoxXHBzcG0/Ij9ccHNw
+bSwxeW1wck1YXTcvMz8tKiozPy4tLzYVTGttcHR6MUt3dnx0cXpsbD8iPy4xKxUVS2h6enFMem1pdnx6JVxten5rejdSfnZxMz9LaHp6cVZxeXAxcXpoNy8xKiczP1pxanIxWn5sdnF4TGtmc3oxXX58dDYzP2RMdmV6PyI/Slt2ci0xcXpoNy8zPywsLTM/LzM/LiYvNmI2JU9zfmY3NhVrfmx0MWh+dms3LzEqNhUVc3B8fnM/S3Zrc3o/Ij9WcWxrfnF8ejFxemg3PUt6Z2tT
+fn16cz0zP1J+dnE2FUt2a3N6MUt6Z2s/Ij89XlFYWlNQTT9XSl0/VFpGP1xXWlxUPRVLdmtzejFZcHFrPyI/WnFqcjFZcHFrMVhwa3d+cl1wc3sVS3Zrc3oxS3pna0x2ZXo/Ij8uJxVLdmtzejFLemdrXHBzcG0sPyI/XHBzcG0sMXF6aDcuMy4zLjYVS3Zrc3oxTHZlej8iP0pbdnItMXF6aDcuMz8vMz8vMz8rLzYVS3Zrc3oxXX58dHhtcGpxe0ttfnFsb35tenF8Zj8iPy4V
+FXNwfH5zP1R6Zl1wZz8iP1ZxbGt+cXx6MXF6aDc9S3pna11wZz0zP1J+dnE2FVR6Zl1wZzFPc358endwc3t6bUt6Z2s/Ij89S2Zvej9UemYxMTE9FVR6Zl1wZzFLemdrPyI/PT0VVHpmXXBnMUt6Z2tccHNwbSw/Ij9ccHNwbSwxcXpoNy4zLjMuNhVUemZdcGcxXX58dHhtcGpxe1xwc3BtLD8iP1xwc3BtLDF5bXByTVhdNywvMz8sLzM/LCo2FVR6Zl1wZzFMdmV6PyI/Slt2
+ci0xcXpoNy8xJzM/LzM/LzM/LCo2FVR6Zl1wZzFPcGx2a3ZwcT8iP0pbdnItMXF6aDcvMS4zPy8zPy8xLCozPy82FVR6Zl1wZzFZcHFrPyI/WnFqcjFZcHFrMVhwa3d+chVUemZdcGcxS3pna0x2ZXo/Ij8uKxVWcWxrfnF8ejFxemg3PUpWXHBtcXptPTM/VHpmXXBnNjFccG1xem1Nfnt2amw/Ij9KW3ZyMXF6aDcvMz8pNhUVc3B8fnM/fWtxWHprPyI/VnFsa35xfHoxcXpo
+Nz1LemdrXWpra3BxPTM/Un52cTYVfWtxWHprMUt6Z2s/Ij9AWFpLQEtHSxV9a3FYemsxXX58dHhtcGpxe1xwc3BtLD8iP1xwc3BtLDF5bXByTVhdNysvMz8rLzM/Kyo2FX1rcVh6azFLemdrXHBzcG0sPyI/XHBzcG0sMXF6aDcvMSgzPy8xKDM/LzEoNhV9a3FYemsxTHZlej8iP0pbdnItMXF6aDcvMSwnMz8vMz8vMz8sKjYVfWtxWHprMU9wbHZrdnBxPyI/Slt2ci0xcXpo
+Ny8xLjM/LzM/LzEpKjM/LzYVfWtxWHprMVlwcWs/Ij9acWpyMVlwcWsxWHBrd35yXXBzexV9a3FYemsxS3pna0x2ZXo/Ij8uLRVWcWxrfnF8ejFxemg3PUpWXHBtcXptPTM/fWtxWHprNjFccG1xem1Nfnt2amw/Ij9KW3ZyMXF6aDcvMz8pNhUVc3B8fnM/fWtxXHd6fHQ/Ij9WcWxrfnF8ejFxemg3PUt6Z2tdamtrcHE9Mz9SfnZxNhV9a3Fcd3p8dDFLemdrPyI/QFxXWlxU
+QEtHSxV9a3Fcd3p8dDFdfnx0eG1wanF7XHBzcG0sPyI/XHBzcG0sMXltcHJNWF03LzM/LSoqMz8uLS82FX1rcVx3enx0MUt6Z2tccHNwbSw/Ij9ccHNwbSwxeW1wck1YXTctLzM/LS8zPy0vNhV9a3Fcd3p8dDFMdmV6PyI/Slt2ci0xcXpoNy8xLCczPy8zPy8zPywqNhV9a3Fcd3p8dDFPcGx2a3ZwcT8iP0pbdnItMXF6aDcvMSotMz8vMz8vMSkqMz8vNhV9a3Fcd3p8dDFZ
+cHFrPyI/WnFqcjFZcHFrMVhwa3d+cl1wc3sVfWtxXHd6fHQxS3pna0x2ZXo/Ij8uLRVWcWxrfnF8ejFxemg3PUpWXHBtcXptPTM/fWtxXHd6fHQ2MVxwbXF6bU1+e3ZqbD8iP0pbdnIxcXpoNy8zPyk2FRV9a3FYemsxUnBqbHpdamtrcHEuXHN2fHQlXHBxcXp8azd5anF8a3ZwcTc2FT8/Pz99a3FYemsxS3pnaz8iPz1cUE9WWls+PRU/Pz8/bHprfHN2b31wfm17N0BTVlFU
+NhU/Pz8/a35sdDFofnZrNy02FT8/Pz99a3FYemsxS3pnaz8iP0BYWktAS0dLFXpxezYVFX1rcVx3enx0MVJwamx6XWpra3BxLlxzdnx0JVxwcXF6fGs3eWpxfGt2cHE3NhU/Pz8/dnk/VHpmXXBnMUt6Z2s/IiI/QE1aXlNAVFpGP2t3enEVPz8/Pz8/Pz99a3Fcd3p8dDFLemdrPyI/QFBUQEtHSxU/Pz8/Pz8/P0toenpxTHptaXZ8eiVcbXp+a3o3Un52cTM/S2h6enFWcXlw
+MXF6aDcvMSsnNjM/ZEx2ZXo/Ij9KW3ZyLTFxemg3LzMvMy8zLzZiNiVPc35mNzYVPz8/Pz8/Pz9rfmx0MWh+dms3LzEqNhU/Pz8/Pz8/P0x8bXp6cVhqdiVbemxrbXBmNzYVPz8/Pz8/Pz9zcH57bGttdnF4N3h+cnolV2trb1h6azdAT15GU1BeWzY2NzYVPz8/P3pzbHoVPz8/Pz8/Pz99a3Fcd3p8dDFLemdrPyI/QF1eW0BLR0sVPz8/Pz8/Pz99a3Fcd3p8dDFdfnx0eG1w
+anF7XHBzcG0sPyI/XHBzcG0sMXltcHJNWF03LSoqMz8qLzM/Ki82FT8/Pz8/Pz8/a35sdDFofnZrNy42FT8/Pz8/Pz8/fWtxXHd6fHQxS3pnaz8iP0BcV1pcVEBLR0sVPz8/Pz8/Pz99a3Fcd3p8dDFdfnx0eG1wanF7XHBzcG0sPyI/XHBzcG0sMXltcHJNWF03LzM/LSoqMz8uLS82FT8/Pz96cXsVenF7NhU=
+]]
+local O0O0OOO00='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+local function OO0O00O0O(b)
+    b=b:gsub('%s+','')
+    b=b:gsub('[^'..O0O0OOO00..'=]','')
+    return (b:gsub('.', function(x)
+        if x=='=' then return '' end
+        local r,f='',(O0O0OOO00:find(x,1,true)-1)
+        for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end
+        return r
+    end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x)
+        if #x~=8 then return '' end
+        local c=0
+        for i=1,8 do if x:sub(i,i)=='1' then c=c+2^(8-i) end end
+        return string.char(c)
+    end))
+end
+local OOO00OO00=OO0O00O0O(O00O0O0OO)
+local O000000O0=(bit32 and bit32.bxor) or function(a,b) return a ~ b end
+local OO0O00O00={}
+for OOO00O0OO=1,#OOO00OO00 do
+    OO0O00O00[OOO00O0OO]=string.char(O000000O0(OOO00OO00:byte(OOO00O0OO),OOO00000O))
+end
+OOOO0000O(table.concat(OO0O00O00))()
